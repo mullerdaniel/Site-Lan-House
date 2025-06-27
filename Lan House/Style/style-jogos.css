@@ -80,7 +80,7 @@
   .game-container {
     display: flex;
     justify-content: center;
-    gap: 60px; 
+    gap: 40px; 
     flex-wrap: wrap;
   }
   

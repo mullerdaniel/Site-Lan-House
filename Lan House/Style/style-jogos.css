@@ -145,3 +145,67 @@
   .footer-links a:hover {
     color: #fff;
   }
+
+
+
+  /* Responsividade */
+
+/* Para telas menores que 1024px (tablets e desktops menores) */
+@media (max-width: 1024px) {
+    .game-container {
+      gap: 25px;
+    }
+  
+    .game-card {
+      width: 45%; /* Dois cards por linha */
+    }
+  }
+  
+  /* Para telas menores que 768px (tablets menores e smartphones maiores) */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 15px 20px;
+      gap: 15px;
+    }
+  
+    .menu nav ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .menu nav ul img.logo {
+      margin: 0 auto 10px;
+    }
+  
+    .game-container {
+      gap: 20px;
+    }
+  
+    .game-card {
+      width: 70%; /* Um card maior por linha */
+    }
+    
+    .titulo {
+      height: auto;
+      padding: 20px 0;
+    }
+  }
+  
+  /* Para telas menores que 480px (smartphones pequenos) */
+  @media (max-width: 480px) {
+    .game-card {
+      width: 90%; /* Card quase full width */
+    }
+  
+    header > div:first-child .logo {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .menu nav a {
+      padding: 6px 8px;
+      font-size: 14px;
+    }
+  }
+  
